@@ -13,3 +13,4 @@
 /Users/alperen7k/Desktop/FinalProject/Entities/bin/Debug/net8.0/Core.pdb
 /Users/alperen7k/Desktop/FinalProject/Entities/obj/Debug/net8.0/Entities.csproj.AssemblyReference.cache
 /Users/alperen7k/Desktop/FinalProject/Entities/obj/Debug/net8.0/Entities.csproj.Up2Date
+/Users/alperen7k/Desktop/FinalProject/Entities/obj/Debug/net8.0/Entities.sourcelink.json

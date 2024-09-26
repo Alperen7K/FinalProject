@@ -17,3 +17,4 @@
 /Users/alperen7k/Desktop/FinalProject/Business/obj/Debug/net8.0/ref/Business.dll
 /Users/alperen7k/Desktop/FinalProject/Business/bin/Debug/net8.0/Core.dll
 /Users/alperen7k/Desktop/FinalProject/Business/bin/Debug/net8.0/Core.pdb
+/Users/alperen7k/Desktop/FinalProject/Business/obj/Debug/net8.0/Business.sourcelink.json

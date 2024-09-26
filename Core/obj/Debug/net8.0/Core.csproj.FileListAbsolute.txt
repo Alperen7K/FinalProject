@@ -10,3 +10,4 @@
 /Users/alperen7k/Desktop/FinalProject/Core/obj/Debug/net8.0/Core.pdb
 /Users/alperen7k/Desktop/FinalProject/Core/obj/Debug/net8.0/ref/Core.dll
 /Users/alperen7k/Desktop/FinalProject/Core/obj/Debug/net8.0/Core.csproj.AssemblyReference.cache
+/Users/alperen7k/Desktop/FinalProject/Core/obj/Debug/net8.0/Core.sourcelink.json

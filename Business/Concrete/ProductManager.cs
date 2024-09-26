@@ -19,10 +19,12 @@ using ProductService = IProductService;
 public class ProductManager : ProductService
 {
     IProductDal _productDal;
+    ICategoryService _categoryService;
 
-    public ProductManager(IProductDal productDal)
+    public ProductManager(IProductDal productDal, ICategoryService categoryService)
     {
         _productDal = productDal;
+        _categoryService = categoryService;
     }
 
     public IDataResult<List<Product>> GetAll()
@@ -58,12 +60,11 @@ public class ProductManager : ProductService
         return new SuccessDataResult<List<ProductDetailDto>>(_productDal.GetProductDetails());
     }
 
-    // [ValidationAspect(typeof(ProductValidator))]
+    [ValidationAspect(typeof(ProductValidator))]
     public IResult Add(Product product)
     {
-        
         IResult result = BusinessRules.Run(CheckIfCategoryProductCountOfCategoryCorrect(product.CategoryId),
-            CheckIfProductNameExist(product.ProductName));
+            CheckIfProductNameExist(product.ProductName), CheckIfCategoryLimitExceded(product.CategoryId));
 
         if (result != null)
         {
@@ -72,7 +73,6 @@ public class ProductManager : ProductService
 
         _productDal.Add(product);
         return new SuccessResult(Messages.ProductAdded);
-
     }
 
     public IResult Update(Product product)
@@ -101,6 +101,18 @@ public class ProductManager : ProductService
         if (result)
         {
             return new ErrorResult(Messages.ProductNameExist);
+        }
+
+        return new SuccessResult();
+    }
+
+    private IResult CheckIfCategoryLimitExceded(int categoryId)
+    {
+        var result = _categoryService.GetCategoryCount();
+
+        if (result.Data >15)
+        {
+            return new ErrorResult(Messages.CatogryLimitExceded);
         }
 
         return new SuccessResult();
