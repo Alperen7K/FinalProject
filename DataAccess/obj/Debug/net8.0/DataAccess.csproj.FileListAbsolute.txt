@@ -1,0 +1,17 @@
+/Users/alperen7k/Desktop/FinalProject/DataAccess/bin/Debug/net8.0/DataAccess.deps.json
+/Users/alperen7k/Desktop/FinalProject/DataAccess/bin/Debug/net8.0/DataAccess.dll
+/Users/alperen7k/Desktop/FinalProject/DataAccess/bin/Debug/net8.0/DataAccess.pdb
+/Users/alperen7k/Desktop/FinalProject/DataAccess/bin/Debug/net8.0/Entities.dll
+/Users/alperen7k/Desktop/FinalProject/DataAccess/bin/Debug/net8.0/Entities.pdb
+/Users/alperen7k/Desktop/FinalProject/DataAccess/obj/Debug/net8.0/DataAccess.csproj.AssemblyReference.cache
+/Users/alperen7k/Desktop/FinalProject/DataAccess/obj/Debug/net8.0/DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alperen7k/Desktop/FinalProject/DataAccess/obj/Debug/net8.0/DataAccess.AssemblyInfoInputs.cache
+/Users/alperen7k/Desktop/FinalProject/DataAccess/obj/Debug/net8.0/DataAccess.AssemblyInfo.cs
+/Users/alperen7k/Desktop/FinalProject/DataAccess/obj/Debug/net8.0/DataAccess.csproj.CoreCompileInputs.cache
+/Users/alperen7k/Desktop/FinalProject/DataAccess/obj/Debug/net8.0/DataAccess.csproj.Up2Date
+/Users/alperen7k/Desktop/FinalProject/DataAccess/obj/Debug/net8.0/DataAccess.dll
+/Users/alperen7k/Desktop/FinalProject/DataAccess/obj/Debug/net8.0/refint/DataAccess.dll
+/Users/alperen7k/Desktop/FinalProject/DataAccess/obj/Debug/net8.0/DataAccess.pdb
+/Users/alperen7k/Desktop/FinalProject/DataAccess/obj/Debug/net8.0/ref/DataAccess.dll
+/Users/alperen7k/Desktop/FinalProject/DataAccess/bin/Debug/net8.0/Core.dll
+/Users/alperen7k/Desktop/FinalProject/DataAccess/bin/Debug/net8.0/Core.pdb
