@@ -1,3 +1,4 @@
+using Core.Entities.Concrete;
 using Entities.Concrete;
 
 namespace Business.Constants;
@@ -13,4 +14,11 @@ public static class Messages
     public static string ProductUpdated = "Ürün güncellendi";
     public static string ProductNameExist = "Bu isimde bir ürün bulunmaktadır, lütfen başka bir isim deneyiniz!";
     public static string CatogryLimitExceded ="Kategori sayısı 15'i geçtiği için ürün ekleyemezsiniz!";
+    public static string? AuthorizationDenied = "Yetkiniz yoktur!";
+    public static string UserRegistered = "Kayıt oldu.";
+    public static string UserNotFound = "Kullanıcı bulunamadı.";
+    public static string PasswordError = "Şifre yanlış";
+    public static string SuccessfulLogin = "Başarılı giriş";
+    public static string UserAlreadyExists = "Böyle bir kullanıcı bulunmaktadır";
+    public static string AccessTokenCreated ="Token oluşturuldu";
 }

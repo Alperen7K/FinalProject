@@ -267,3 +267,4 @@
 /Users/alperen7k/Desktop/FinalProject/WebAPI/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
 /Users/alperen7k/Desktop/FinalProject/WebAPI/bin/Debug/net8.0/FluentValidation.dll
 /Users/alperen7k/Desktop/FinalProject/WebAPI/obj/Debug/net8.0/WebAPI.sourcelink.json
+/Users/alperen7k/Desktop/FinalProject/WebAPI/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.dll

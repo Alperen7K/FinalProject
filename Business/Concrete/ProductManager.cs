@@ -1,5 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 using Business.Abstract;
+using Business.BusinessAspects.Autofac;
 using Business.Constants;
 using Business.ValidationRules.FluentValidation;
 using Core.Aspects.Autofac.Validation;
@@ -60,6 +61,7 @@ public class ProductManager : ProductService
         return new SuccessDataResult<List<ProductDetailDto>>(_productDal.GetProductDetails());
     }
 
+    [SecuredOperation("product.add,admin")]
     [ValidationAspect(typeof(ProductValidator))]
     public IResult Add(Product product)
     {
@@ -110,7 +112,7 @@ public class ProductManager : ProductService
     {
         var result = _categoryService.GetCategoryCount();
 
-        if (result.Data >15)
+        if (result.Data > 15)
         {
             return new ErrorResult(Messages.CatogryLimitExceded);
         }
