@@ -14,3 +14,14 @@
 /Users/alperen7k/Desktop/FinalProject/Entities/obj/Debug/net8.0/Entities.csproj.AssemblyReference.cache
 /Users/alperen7k/Desktop/FinalProject/Entities/obj/Debug/net8.0/Entities.csproj.Up2Date
 /Users/alperen7k/Desktop/FinalProject/Entities/obj/Debug/net8.0/Entities.sourcelink.json
+/Users/alperen7k/Desktop/FinalProject/Entities/bin/Debug/net8.0/Microsoft.AspNetCore.Http.dll
+/Users/alperen7k/Desktop/FinalProject/Entities/bin/Debug/net8.0/Microsoft.AspNetCore.Http.Abstractions.dll
+/Users/alperen7k/Desktop/FinalProject/Entities/bin/Debug/net8.0/System.IO.Pipelines.dll
+/Users/alperen7k/Desktop/FinalProject/Entities/bin/Debug/net8.0/Microsoft.Extensions.Features.dll
+/Users/alperen7k/Desktop/FinalProject/Entities/bin/Debug/net8.0/Microsoft.AspNetCore.Http.Features.dll
+/Users/alperen7k/Desktop/FinalProject/Entities/bin/Debug/net8.0/Microsoft.AspNetCore.WebUtilities.dll
+/Users/alperen7k/Desktop/FinalProject/Entities/bin/Debug/net8.0/Microsoft.AspNetCore.Connections.Abstractions.dll
+/Users/alperen7k/Desktop/FinalProject/Entities/bin/Debug/net8.0/Microsoft.Net.Http.Headers.dll
+/Users/alperen7k/Desktop/FinalProject/Entities/bin/Debug/net8.0/Microsoft.Extensions.ObjectPool.dll
+/Users/alperen7k/Desktop/FinalProject/Entities/bin/Debug/net8.0/Microsoft.AspNetCore.Http.Extensions.dll
+/Users/alperen7k/Desktop/FinalProject/Entities/bin/Debug/net8.0/Microsoft.Extensions.FileProviders.Abstractions.dll

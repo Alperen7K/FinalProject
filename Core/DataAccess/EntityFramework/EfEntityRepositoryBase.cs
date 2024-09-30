@@ -4,9 +4,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Core.DataAccess.EntityFramework;
 
-public class EfEntityRepositoryBase<TEntity, TContext>:IEntityRepository<TEntity>
-where TEntity : class, IEntity, new()
-where TContext: DbContext,new()
+public class EfEntityRepositoryBase<TEntity, TContext> : IEntityRepository<TEntity>
+    where TEntity : class, IEntity, new()
+    where TContext : DbContext, new()
 {
     public List<TEntity> GetAll(Expression<Func<TEntity, bool>> filter = null)
     {
@@ -18,10 +18,11 @@ where TContext: DbContext,new()
 
     public TEntity Get(Expression<Func<TEntity, bool>> filter)
     {
-        throw new NotImplementedException();
-        throw new NotImplementedException();
+        using (var context = new TContext())
+        {
+            return context.Set<TEntity>().SingleOrDefault(filter);
+        }
     }
-
 
     public void Add(TEntity entity)
     {

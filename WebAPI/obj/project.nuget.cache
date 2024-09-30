@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "2P29DttAdx4=",
+  "dgSpecHash": "T3cXoQ2c4r8=",
   "success": true,
   "projectFilePath": "/Users/alperen7k/Desktop/FinalProject/WebAPI/WebAPI.csproj",
   "expectedPackageFiles": [
@@ -61,6 +61,7 @@
     "/Users/alperen7k/.nuget/packages/humanizer.core.zh-cn/2.14.1/humanizer.core.zh-cn.2.14.1.nupkg.sha512",
     "/Users/alperen7k/.nuget/packages/humanizer.core.zh-hans/2.14.1/humanizer.core.zh-hans.2.14.1.nupkg.sha512",
     "/Users/alperen7k/.nuget/packages/humanizer.core.zh-hant/2.14.1/humanizer.core.zh-hant.2.14.1.nupkg.sha512",
+    "/Users/alperen7k/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/8.0.0/microsoft.aspnetcore.authentication.jwtbearer.8.0.0.nupkg.sha512",
     "/Users/alperen7k/.nuget/packages/microsoft.aspnetcore.http/2.2.2/microsoft.aspnetcore.http.2.2.2.nupkg.sha512",
     "/Users/alperen7k/.nuget/packages/microsoft.aspnetcore.http.abstractions/2.2.0/microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
     "/Users/alperen7k/.nuget/packages/microsoft.aspnetcore.http.features/2.2.0/microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
