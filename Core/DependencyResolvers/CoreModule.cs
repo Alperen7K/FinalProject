@@ -3,12 +3,15 @@ using Core.Utilities.IoC;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Core.DependencyResolvers;
 
-public class CoreModule : Module
+namespace Core.DependencyResolvers
 {
-    public void Load(ContainerBuilder builder)
+    public class CoreModule : ICoreModule
     {
-        builder.RegisterType<HttpContextAccessor>().As<IHttpContextAccessor>().SingleInstance();
+        public void Load(IServiceCollection services)
+        {
+            services.AddMemoryCache();
+            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+        }
     }
 }

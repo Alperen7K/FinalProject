@@ -32,11 +32,16 @@ builder.Host.UseServiceProviderFactory(new AutofacServiceProviderFactory());
 
 builder.Host.ConfigureContainer<ContainerBuilder>(containerBuilder =>
 {
-    containerBuilder.RegisterModule(new CoreModule());
+    // containerBuilder.RegisterModule(new CoreModule());
     containerBuilder.RegisterModule(new AutofacBusinessModule());
 });
 
 builder.Services.AddHttpContextAccessor();
+
+builder.Services.AddDependencyResolvers(new ICoreModule[]
+{
+    new CoreModule(),
+});
 
 // Add services to the container.
 builder.Services.AddControllers();

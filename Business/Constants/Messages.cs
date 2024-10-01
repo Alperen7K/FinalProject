@@ -19,6 +19,6 @@ public static class Messages
     public static string UserNotFound = "Kullanıcı bulunamadı.";
     public static string PasswordError = "Şifre yanlış";
     public static string SuccessfulLogin = "Başarılı giriş";
-    public static string UserAlreadyExists = "Böyle bir kullanıcı bulunmaktadır";
+    public static string UserAlreadyExists = "Bu email kullanılmaktadır!";
     public static string AccessTokenCreated ="Token oluşturuldu";
 }
