@@ -11,6 +11,7 @@ public class AspectInterceptorSelector : IInterceptorSelector
             (true).ToList();
         var methodAttributes = type.GetMethod(method.Name)
             .GetCustomAttributes<MethodInterceptionBaseAttribute>(true);
+
         classAttributes.AddRange(methodAttributes);
 
         return classAttributes.OrderBy(x => x.Priority).ToArray();
