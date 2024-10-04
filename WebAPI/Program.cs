@@ -1,12 +1,12 @@
 using Autofac;
+using Core.Extensions;
+using Core.Utilities.IoC;
+using Core.DependencyResolvers;
 using Core.Utilities.Security.JWT;
 using Microsoft.IdentityModel.Tokens;
 using Core.Utilities.Security.Encryption;
 using Business.DependencyResolvers.Autofac;
 using Autofac.Extensions.DependencyInjection;
-using Core.DependencyResolvers;
-using Core.Extensions;
-using Core.Utilities.IoC;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 
 var builder = WebApplication.CreateBuilder(args);
