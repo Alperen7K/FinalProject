@@ -1,9 +1,9 @@
 using Core.Extensions;
+using Core.Utilities.IoC;
 using Business.Constants;
 using Castle.DynamicProxy;
 using Microsoft.AspNetCore.Http;
 using Core.Utilities.Interceptors;
-using Core.Utilities.IoC;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace Business.BusinessAspects.Autofac;
